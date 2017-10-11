@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_xiangqing2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.lianxi1.Xiangqing2Activity">
+<EditText
+    android:hint="请输入用户名"
+    android:id="@+id/name"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_margin="20dp"
+    />
+    <EditText
+        android:hint="wings输入密码"
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        />
+    <Button
+        android:id="@+id/dengru"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="登入"/>
+
+</LinearLayout>

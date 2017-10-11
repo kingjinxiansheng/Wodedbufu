@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:id="@+id/diyi"
+    android:title="删除"
+    android:icon="@mipmap/ic_launcher"
+    app:showAsAction="always"
+    />
+    <item
+        android:id="@+id/dier"
+        android:title="设置"
+        android:icon="@mipmap/ic_launcher"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/disan"
+        android:title="分享"
+        android:icon="@mipmap/ic_launcher"
+        app:showAsAction="never"
+        />
+
+</menu>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_xiangqing0"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.lianxi1.xiangqing0Activity">
+<FrameLayout
+    android:id="@+id/livea"
+    android:layout_weight="1"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"></FrameLayout>
+    <RadioGroup
+        android:id="@+id/anniuzu"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal">
+        <RadioButton
+            android:button="@null"
+            android:gravity="center"
+            android:id="@+id/liaotina"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="聊天"/>
+        <RadioButton
+            android:button="@null"
+            android:gravity="center"
+            android:id="@+id/lianxiren"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="联系人"/>
+    </RadioGroup>
+</LinearLayout>

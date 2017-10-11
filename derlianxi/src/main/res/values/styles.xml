@@ -1,0 +1,14 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">@style/name111</item>
+    </style>
+<style name="name111" parent="Widget.AppCompat.PopupMenu.Overflow">
+    <item name="android:dropDownVerticalOffset">?attr/actionBarSize</item>
+</style>
+</resources>
